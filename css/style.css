@@ -1,0 +1,35 @@
+.navbar, #copyright{background: #000;}
+.nav-item{padding-right: 1em;}
+.nav-item:last-child{padding-right: 0;}
+#navbarNav .nav-link{text-transform: uppercase;}
+.carousel-item{height: 450px;}
+.carousel-img-1{background: url('../img/image1.jpeg'); background-size: cover;}
+.carousel-img-2{background: url('../img/image2.jpeg'); background-size: cover;}
+.carousel-img-3{background: url('../img/image3.jpeg'); background-size: cover;}
+#home-icons .fa, #home-video .fa{font-size: 50px;}
+#getstarted{background:url('../img/bg1.jpeg'); background-size: cover; background-attachment: fixed; min-height: 250px; position: relative;}
+.dark-overlay, .dark-overlay-2{background: rgba(0,0,0,0.7); min-height: 250px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+#home-video{background: url('../img/people.jpeg'); background-size: cover; background-attachment: fixed; min-height: 250px; position: relative;}
+/*--------------------------------About Section Start ---------------------------*/
+#about-header{background: url('../img/image1.jpeg'); background-size: cover; background-attachment: fixed; height: 200px;}
+#about-info img{width: 350px; height: 350px;}
+#icon-boxes .fa{font-size: 50px; margin-bottom: 20px;}
+#testimonial i{color: #000; font-size: 20px;}
+#testimonial{padding-bottom: 1rem !important;}
+/*--------------------------------Services Section Start----------------------------*/
+#services-header{background: url('../img/image3.jpeg'); background-size: cover; background-attachment: fixed; min-height: 200px;}
+/*--------------------------------Blog Part Start----------------------------------*/
+#blog-header{background: url('../img/image2.jpeg'); background-size: cover; background-attachment: fixed; min-height: 200px;}
+#blog-section img{height: 200px;}
+/*-----------------------Contact Section Start----------------------------------*/
+#contact-header{background: url('../img/image2.jpeg'); background-size: cover; background-attachment: fixed; min-height: 200px;}
+/*-----------------------Responsive MediaQuarey`s----------------------------------*/
+@media(min-width: 768px){#photo-gallery img{height: 250px;}}
+@media(max-width: 768px){#testimonial .carousel-caption{right: 5%; left: 5%;} .block-2{font-size: 1.20rem;} #testimonial .carousel-caption p{font-size: 1.15rem;} #getstarted{height: 280px;}}
+@media(max-width: 576px){#getstarted{height: 310px;} .carousel-item h1{font-size: 3rem;}}
+@media(max-width: 500px){#getstarted{height: 330px;} .carousel-item p{font-size: 1.20rem;} #testimonial .carousel-caption p{font-size: 1rem;} .block-2{font-size: 1rem;}}
+@media(max-width: 450px){#getstarted h3{font-size: 1.6rem;} .carousel-item p{font-size: 1.10rem;} .carousel-item h1{font-size: 2.5rem;} #newsletter h2{font-size: 1.7rem;} #newsletter p{font-size: 1.10rem;} #testimonial .carousel-caption p{font-size: .9rem;} .block-2{font-size: 1rem;}}
+@media(max-width: 382px){#getstarted h3{font-size: 1.3rem;} #getstarted p{font-size: 1.20rem;} #home-video h2{font-size: 1.8rem;} #newsletter h2{font-size: 1.5rem;} #newsletter p{font-size: 1.rem;} .block-2{font-size: 0.8rem;}}
+@media(max-width: 355px){#getstarted h3{font-size: 1.2rem;} #getstarted p{font-size: 1.10rem;} #home-video h2{font-size: 1.5rem;} .carousel-item p{font-size: 1rem;} .carousel-item h1{font-size: 2.3rem;}}
+@media(max-width: 325px){#getstarted{height: 350px;} #getstarted h3{font-size: 1.1rem;} .carousel-item p{font-size: 15px;} .carousel-item h1{font-size: 2rem;} #home-info h3{font-size: 1.40rem;} #newsletter h2{font-size: 1.2rem;} .block-2{font-size: 0.7rem;}}
+@media(max-width: 283px){#getstarted h3{font-size: 18px;} #getstarted p{font-size: 1.10rem;} #home-video h2{font-size: 1.3rem;} .carousel-item h1{font-size: 1.6rem;}}
